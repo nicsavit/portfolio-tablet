@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="imgs/Nicole.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+	<title>Contact Information</title>
+</head>
+<body>
+	<a class = "skip" href="#main">Skip to Main Content</a>
+	<header>
+		<nav class = nav_links>
+			<ul>
+				<li><a href = "index.html">About Me</a></li>
+				<li><a href = "experience.html">Experiences</a></li>
+				<li><a href = "journal.html">Photo Journal</a></li>
+				<li id = "current"><a href = "contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+
+	</header>
+	
+	
+<main>
+	<h1>Contact Information</h1>
+	<div class = "contact-container" id = "main">
+		<h2>Email</h2>
+	    	<p>School: nicsavit@umich.edu</p>
+        	<p>Personal: nicsavit@gmail.com</p>
+		
+		
+    	<h2>Phone</h2>
+			<p>Cell: +1 (646)-920-9500</p>
+	</div>	
+	<!-- FORM -->
+	<div class = "form">
+	<form action="contact.html" method="POST">
+		<h2>Contact Me</h2>
+		<label for="fname">First Name</label>
+    	<input type="text" id="fname" name="firstname" placeholder="First name...">
+
+    	<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Last name...">
+		
+		<label for="email">Email</label>
+		<input type="text" id="email" name="email" placeholder="Email...">
+		
+		<label for="message">Message</label>
+		<textarea id="message" name="message" placeholder="Your message..." style="height:200px"></textarea>
+
+		<input type="submit" value="Submit">
+	</form>
+</div>
+</main>
+	<footer>
+		<p>Nicole Savitsky &copy; 2021</p>
+		<p> SI 339</p>
+	</footer>
+</body>
+</html>
